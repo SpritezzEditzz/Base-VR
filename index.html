@@ -13,11 +13,21 @@
  <a-scene>
     <a-entity environment="preset: forest; dressingAmount: 700; dressingColor: #048310; skyColor: blue; fog: 0.8; dressing:apparatus;"></a-entity> 
 <a-box id="floor" position="0 0 0" color="black" scale = "10.5 10.5 0.1" rotation = "90 0 0"></a-box>
-<a-box id="wall"  position="0 0 5.25" Color="orange" scale = "10.5 10.5 0.1"></a-box>
-<a-box id="wall"  position="0 0 -5.25" Color="orange" scale = "10.5 10.5 0.1"></a-box>
+<a-box id="wall1"  position="0 0 5.25" Color="orange" scale = "10.5 10.5 0.1"></a-box>
+<a-box id="wall2"  position="0 0 -5.25" Color="orange" scale = "10.5 10.5 0.1"></a-box>
 <a-box id="roof"  position="0 5.25 0" Color="black" scale = "10.5 10.5 0.1" rotation = "90 0 0"></a-box>
-<a-box id="wall"  position="5.25 0 0" Color="yellow" scale = "10.5 10.5 0.1" rotation = "0 90 0"></a-box>
-<a-box id="wall"  position="-5.25 0 0" Color="yellow" scale = "10.5 10.5 0.1" rotation = "0 90 0"></a-box>
+<a-box id="wall3"  position="5.25 0 0" Color="yellow" scale = "10.5 10.5 0.1" rotation = "0 90 0"></a-box>
+<a-box id="wall4"  position="-5.25 0 0" Color="yellow" scale = "10.5 10.5 0.1" rotation = "0 90 0"></a-box>
+<a-cylinder id="triangle_front" segments-radial="3" position="0 6.15 5.2" rotation="-90 0 0" scale="6.1 0.2 1.8" color="pink"></a-cylinder>
+<a-cylinder id="triangle_back" segments-radial="3" position="0 6.15 -5.2" rotation="-90 0 0" scale="6.1 0.2 1.8" color="pink"></a-cylinder>
+<a-box id="roof_right" position="3.580 6.2 0" rotation="28.433 90 0" scale="12.931 0.20 8.110" color="brown"></a-box>
+<a-box id="roof_left" position="-3.580 6.2 0" rotation="-28.433 90 0" scale="12.931 0.20 8.110" color="brown"></a-box>
+<a-plane id="art1" src="images/Champs.jpeg" scale="4 4.5 0.05" rotation="0 0 0" position="2.5 2.6 -5.19"></a-plane>
+<a-plane id="art2" src="images/MeMTB.jpeg" scale="5.5 4 0.05" rotation="0 180 0" position="2 2.5 5.19"></a-plane>
+<a-plane id="art3" src="images/Rainier.jpg" scale="5.6 4 0.05" rotation="0 270 0" position="5.19 2.5 -2"></a-plane>
+<a-plane id="art5" src="images/Astra.jpeg" scale="3 4 0.05" rotation="0 180 0" position="-3 2.5 5.19"></a-plane>
+<a-plane id="art1" src="images/Volley ball.jpg" scale="4 3 0.05" rotation="0 0 0" position="-2.5 2.5 -5.19"></a-plane>
+<a-obj-model id="3dModel1" src="images/tinker.obj" mtl="images/obj.mtl" position="4 0 3" rotation="-90 45 0" scale="0.03 0.03 0.03"></a-obj-model>
 
  </a-scene>
 </body>
